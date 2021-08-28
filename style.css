@@ -1,0 +1,418 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+body,
+html,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 23px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px 0 16px;
+    background: rgba(255, 255, 255, 0.0001);
+    box-shadow: 0 1px 0 #F5F6F7;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 55%;
+}
+
+.header-p {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-foto-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    width: 90px;
+    margin-left: 30px;
+}
+
+
+.menu {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C4043;
+    margin-left: 39px;
+}
+
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    background: #E5E5E5;
+    padding: 35px 0;
+    min-height: 432px;
+}
+
+.section-2 {
+    background: #E8F0FE;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.foto-main {
+    width: 450px;
+    height: 450px;
+}
+
+.left {
+    width: 50%;
+}
+
+.back {
+    background-color: yellow;
+    padding: 2px;
+}
+
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #202124;
+    margin-top: 38px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #202124;
+    margin-top: 10px;
+    letter-spacing: -0.27px;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #202124;
+    margin-top: 26px;
+    width: 90%;
+}
+
+.button {
+    border-radius: 6px;
+    width: 169px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2667FF;
+    margin-top: 40px;
+}
+
+.card {
+    flex-basis: 30%;
+    margin-bottom: 58px;
+}
+
+.card h4 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.135714px;
+    color: #202124;
+}
+
+.card p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4043;
+}
+
+.section-3 h2 {
+    margin-bottom: 64px;
+}
+
+.section-4 {
+    background: #EDF2F0;
+}
+
+.small-card {
+    width: 263px;
+    height: 170px;
+    border: 1px solid #DADCE0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.small-card p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #202124;
+}
+
+.small-card p:nth-child(3) {
+    color: #8D9099;
+}
+
+.small-card .number-p {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.257143px;
+    color: #202124;
+}
+
+.button-two {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-6 {
+    background: #EDF2F0;
+}
+
+
+.section-6 {
+    background: #E8F0FE;
+    padding-bottom: 120px;
+}
+
+.section-6 .small-card {
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.section-6 .small-card .color-p {
+    width: 100%;
+    height: 40%;
+    padding-top: 20px;
+    background: #F3F5F6;
+    box-shadow: 0 1px 0 #EAEFEB;
+    color: #2667FF;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.section-6 .small-card .number-p > span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #8D9099;
+}
+
+.section-6 h6 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: -0.135714px;
+    color: #202124;
+}
+
+.padding-f {
+    height: 100%;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.padding-f img {
+    width: 100%;
+}
+
+.section-7 {
+    box-sizing: border-box;
+    background: #E5E5E5;
+}
+
+.section-5 .left {
+    width: 40%;
+    align-self: flex-start;
+}
+
+
+.js-block {
+    width: 60%;
+}
+
+.courses-title {
+    position: relative;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: #202124;
+    height: 56px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+}
+
+.courses-content {
+    height: 0;
+    visibility: hidden;
+}
+
+.courses-content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #202124;
+}
+
+.courses-title img {
+    position: absolute;
+    right: 5px;
+}
+
+.selected {
+    color: #2667FF;
+    text-decoration: underline;
+}
+
+.section-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F5F6;
+}
+
+#form-block {
+    background: #FFFFFF;
+    width: 80%;
+    height: 300px;
+}
+
+.inputs {
+    display: flex;
+    margin-bottom: 23px;
+    margin-top: 43px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inp {
+    min-height: 60px;
+
+}
+
+.inp, .inp-2 {
+    display: block;
+}
+
+.inp-2 {
+    height: 40px;
+    width: 200px;
+}
+
+input[type="button"] {
+    background: #0A54FF;
+    color: #FFFFFF;
+    width: 100px;
+    display: block;
+}
+
+#form {
+    width: 100%;
+}
+
+.section-9 .project .card {
+    min-height: 416px;
+    background-color: #FFFFFF;
+    background-image: url("Images/Cover.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 60%;
+    padding-left: 30px;
+    padding-top: 22px;
+}
+
+.card-bottom-text span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #8D9099;
+    margin-right: 12px;
+}
+
+@keyframes changeHeight {
+    from {
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+    }
+    50% {
+        height: 50%;
+        visibility: initial;
+        opacity: 0.4;
+    }
+    to {
+        height: auto;
+        visibility: visible;
+        opacity: 1;
+    }
+}
